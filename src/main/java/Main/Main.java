@@ -11,7 +11,7 @@ public class Main {
 
 	public static void main(String[] args) {
         LightbulbInterface lightBulb = new Lightbulb();
-        SwitchInterface button = new Button();
+        SwitchInterface button = new PushdownButton();
         TableLamp tableLamp = new TableLamp(button, lightBulb);
 
         tableLamp.turnOn();
