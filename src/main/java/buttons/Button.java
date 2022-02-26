@@ -1,4 +1,4 @@
-// Colin Brennan
+// Colin Brennan CS 445 HW3
 package main.java.buttons;
 
 public class Button implements SwitchInterface {

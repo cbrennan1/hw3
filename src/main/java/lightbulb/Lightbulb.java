@@ -1,3 +1,4 @@
+// Colin Brennan CS 445 HW3
 package main.java.lightbulb;
 
 public class Lightbulb implements LightbulbInterface {
