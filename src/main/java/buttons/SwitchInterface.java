@@ -5,7 +5,7 @@ public interface SwitchInterface {
 
     void switchOff();
 
-    String getSwitchOnOutput();
+    String getSwitchOnString();
 
-    String getSwitchOffOutput();
+    String getSwitchOffString();
 }
