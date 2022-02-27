@@ -22,7 +22,7 @@ public class Lightbulb_Testing {
     }
 
     @Test //Off
-    void lightBulbOffOutMatchesExpectedOutput() {
+    void lightBulbOffOutputMatchesExpectedOutput() {
         Lightbulb lightBulb = new Lightbulb();
         assertEquals(Light_bulb_off_string_expected_output, lightBulb.getOffString());
     }
