@@ -12,20 +12,16 @@ public class Button_Testing {
 
     static {
     	Switch_on_string_expected_output = "Button switched to ON";
-    	Switch_off_string_expected_output = "Button switched to OFF";
-    }
+    	Switch_off_string_expected_output = "Button switched to OFF"; }
 
     @Test // On
     void buttonSwitchOnOutputMatchesExpectedOutput() {
         Button button = new Button();
-        assertEquals(Switch_on_string_expected_output, button.getSwitchOnString());
-    }
+        assertEquals(Switch_on_string_expected_output, button.getSwitchOnString()); }
 
     @Test // Off
     void buttonSwitchOffOutputMatchesExpectedOutput() {
         Button button = new Button();
-        assertEquals(Switch_off_string_expected_output, button.getSwitchOffString());
-    }
-
+        assertEquals(Switch_off_string_expected_output, button.getSwitchOffString()); }
 
 }

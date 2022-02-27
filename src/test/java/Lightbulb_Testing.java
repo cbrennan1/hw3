@@ -12,18 +12,15 @@ public class Lightbulb_Testing {
 
     static {
     	Light_bulb_on_string_expected_output = "Lightbulb on";
-    	Light_bulb_off_string_expected_output  = "Lightbulb off";
-    }
+    	Light_bulb_off_string_expected_output  = "Lightbulb off"; }
 
     @Test //On
     void lightBulbOnOutputMatchesExpectedOutPut() {
         Lightbulb lightBulb = new Lightbulb();
-        assertEquals(Light_bulb_on_string_expected_output, lightBulb.getOnString());
-    }
+        assertEquals(Light_bulb_on_string_expected_output, lightBulb.getOnString()); }
 
     @Test //Off
     void lightBulbOffOutputMatchesExpectedOutput() {
         Lightbulb lightBulb = new Lightbulb();
-        assertEquals(Light_bulb_off_string_expected_output, lightBulb.getOffString());
-    }
+        assertEquals(Light_bulb_off_string_expected_output, lightBulb.getOffString()); }
 }
