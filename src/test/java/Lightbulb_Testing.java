@@ -1,3 +1,4 @@
+// Colin Brennan CS445 HW3
 package test.java;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -14,13 +15,13 @@ public class Lightbulb_Testing {
     	Light_bulb_off_string_expected_output  = "Lightbulb off";
     }
 
-    @Test
+    @Test //On
     void lightBulbOnOutputMatchesExpectedOutPut() {
         Lightbulb lightBulb = new Lightbulb();
         assertEquals(Light_bulb_on_string_expected_output, lightBulb.getOnString());
     }
 
-    @Test
+    @Test //Off
     void lightBulbOffOutMatchesExpectedOutput() {
         Lightbulb lightBulb = new Lightbulb();
         assertEquals(Light_bulb_off_string_expected_output, lightBulb.getOffString());
