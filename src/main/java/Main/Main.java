@@ -14,9 +14,10 @@ public class Main {
         SwitchInterface button = new PushdownButton();
         TableLamp tableLamp = new TableLamp(button, lightBulb);
 
+        System.out.println("Pushdown Button Implementation%n");
         tableLamp.turnOn();
         tableLamp.turnOff();
-
+        System.out.println("%nButton Implementation%n");
         SwitchInterface button2 = new Button();
         TableLamp tableLamp2 = new TableLamp(button2, lightBulb);
 
