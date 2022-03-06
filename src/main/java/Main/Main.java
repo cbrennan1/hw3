@@ -17,8 +17,8 @@ public class Main {
         tableLamp.turnOn();
         tableLamp.turnOff();
 
-        SwitchInterface button = new Button();
-        TableLamp tableLamp = new TableLamp(button, lightBulb);
+        SwitchInterface button2 = new Button();
+        TableLamp tableLamp = new TableLamp(button2, lightBulb);
 
         tableLamp.turnOn();
         tableLamp.turnOff();
