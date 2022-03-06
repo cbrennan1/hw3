@@ -10,3 +10,4 @@ sudo chmod +x gradlew
 ./gradlew clean build
 ./gradlew test
 ./gradlew jacocoTestReport
+./gradlew run
