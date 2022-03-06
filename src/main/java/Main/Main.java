@@ -18,10 +18,10 @@ public class Main {
         tableLamp.turnOff();
 
         SwitchInterface button2 = new Button();
-        TableLamp tableLamp = new TableLamp(button2, lightBulb);
+        TableLamp tableLamp2 = new TableLamp(button2, lightBulb);
 
-        tableLamp.turnOn();
-        tableLamp.turnOff();
+        tableLamp2.turnOn();
+        tableLamp2.turnOff();
     }
 
 }
