@@ -32,11 +32,13 @@ sudo chmod +x gradlew
 sudo chmod 777 build.sh
 ```
 
-4. Build
+4. Build/Test/Run
 
 ```
 ./gradlew clean build
-
+./gradlew test
+./gradlew jacocoTestReport
+./gradlew run
 ```
 
 After the build has finished you can view the unit testing report that was created in build/reports/tests/test/index.html
