@@ -23,15 +23,6 @@ public class Button_Testing {
         Button button = new Button();
         assertEquals(Switch_on_string_expected_output, button.getSwitchOnString()); }
     
-    @Test
-    public void testCollectionAdd() {
-        Button button2 = new ArrayList();
-        assertEquals(0, button2.size());
-        Button.add("itemA");
-        assertEquals(1, Button.size());
-        Button.add("itemB");
-        assertEquals(2, Button.size());
-    }
     
     @Test // Off
     void buttonSwitchOffOutputMatchesExpectedOutput() {
